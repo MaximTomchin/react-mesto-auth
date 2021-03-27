@@ -1,0 +1,16 @@
+.form__input {
+    margin-top: 30px;
+    width: 100%;
+    heigth: 27px;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+
+.form__input:first-of-type {
+    margin-top: 50px;
+}
