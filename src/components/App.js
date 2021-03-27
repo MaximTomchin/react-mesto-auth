@@ -217,7 +217,7 @@ const App = React.memo ((props) =>  {
                             handleRegister={handleRegister}/>
                     </Route>
 
-                    <Route>
+                    <Route path="/">
                         {loggedIn ? (
                             <Redirect to="/cards" />
                         ) : (
